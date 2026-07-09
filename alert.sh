@@ -20,7 +20,7 @@ while true; do
   curl -s -H "Content-Type: application/json" \
        -X POST \
        -d "{\"content\": \"$MESSAGE\"}" \
-       "PASTE_YOUR_DISCORD_WEBHOOK_URL_HERE"
+       "https://discord.com/api/webhooks/1524821017732714668/9gfCVFO5Ap9YgZFhVv6F1YuImLJkFzRKUNeGTkmOmFoE-olCIJmg9Az6XdlXAiVSFIN-"
        
   echo "Alert sent successfully!"
 done
