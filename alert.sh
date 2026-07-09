@@ -21,7 +21,7 @@ while true; do
   curl -s -H "Content-Type: application/json" \
        -X POST \
        -d "{\"content\": \"$MESSAGE\"}" \
-       "https://discord.com/api/webhooks/1524821017732714668/9gfCVFO5Ap9YgZFhVv6F1YuImLJkFzRKUNeGTkmOmFoE-olCIJmg9Az6XdlXAiVSFIN-"
+       "https://discord.com/api/webhooks/1524321531696779386/0cIhPs0qsGCUKh4LlmRX_kiesk9ZhWInI8gzwrzHHXr264daOK_sQ4nRVMpwegc1_-VQ"
        
   echo "Update dispatched cleanly! Returning to sleep..."
   echo "----------------------------------------"
